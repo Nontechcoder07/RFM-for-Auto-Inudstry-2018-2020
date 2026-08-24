@@ -1,26 +1,20 @@
-# Analytics Portfolio
+## Project 01: RFM Customer Segmentation (Auto Sales, 2018–2020)
+**Domain:** Automotive Retail / CRM   |   **Tools:** Excel, Power Query
 
-I take raw business data and turn it into decisions.
+**The Business Problem**
+An auto dealership had 89 customers on the books and no systematic way to answer a basic question: which customers were worth protecting, which were slipping away, and which were already gone. Retention effort and win-back budget were being spent on gut feel, not evidence.
 
-This repo documents is my work in marketing analytics and business intelligence — customer segmentation, sales performance, and dashboards built to answer real business questions. Built in Excel, Power BI, and SQL.
+**What I Did**
+Built an RFM (Recency, Frequency, Monetary) model in Excel and Power Query — scoring every customer, then grouping them into five segments, each with a clear business meaning and next action.
 
----
+**What I Found**
+- **11 Champion customers (12% of the base) drove 31% of total revenue** — ₹29.97L. A small group carrying the business.
+- The **"Can't Lose Them"** segment averaged **777 days** since last purchase — high-value customers going cold, and nobody had flagged it.
+- **30 Lost customers represent ₹18.04L in recoverable revenue** — not a guess, a named list ready for a win-back campaign.
+- The **Loyal segment (33 customers, ₹36.84L)** is the single biggest revenue contributor, but recency is starting to drift — an early warning sign a simple sales report would miss.
 
-## Projects
-
-### 01 · RFM Customer Segmentation — Auto Sales 2018–2020
-**Tools:** Excel, Power Query  
-**Domain:** Automotive Retail / CRM
-
-An auto dealership had 89 customers and no way to tell which ones were worth keeping, which were at risk, and which were already gone.
-
-I built an RFM model that scored every customer on Recency, Frequency, and Monetary value — then grouped them into five actionable segments with clear business implications for each.
-
-**What I found:**
-- 11 Champion customers (12% of the base) drove **31% of total revenue** — $299K
-- The "Can't Lose Them" segment averaged **777 days** since their last purchase. Urgent.
-- 30 Lost customers represent **₹18L in recoverable revenue** — a win-back campaign waiting to happen
-- The Loyal segment (33 customers, ₹36.8L) is the biggest revenue contributor but showing early signs of recency drift
+**The Result**
+Turned an undifferentiated list of 89 customers into a segmented action plan — who to protect, who to win back, and where retention budget was better spent elsewhere.
 
 **Dashboard:**
 
@@ -28,30 +22,12 @@ I built an RFM model that scored every customer on Recency, Frequency, and Monet
 
 | Segment | Customers | Avg Recency (days) | Revenue |
 |---|---|---|---|
-| Champion | 11 | 189 | $29,97,020 |
-| Loyal Customer | 33 | 352 | $36,84,073 |
-| Can't Lose Them | 3 | 777 | $4,15,507 |
-| At Risk | 12 | 280 | $8,59,564 |
-| Lost | 30 | 691 | $18,04,057 |
-| **Total** | **89** | **451** | **$97,60,222** |
+| Champion | 11 | 189 | ₹29,97,020 |
+| Loyal Customer | 33 | 352 | ₹36,84,073 |
+| Can't Lose Them | 3 | 777 | ₹4,15,507 |
+| At Risk | 12 | 280 | ₹8,59,564 |
+| Lost | 30 | 691 | ₹18,04,057 |
+| **Total** | **89** | **451** | **₹97,60,222** |
 
 ---
 
-## Coming Next
-
-| Project | Focus | Tools | Status |
-|---|---|---|---|
-| Ads Performance Tracker | Campaign ROI, CTR, CPA | Power BI, Excel | 🔄 In Progress |
-| SQL Marketing Analysis | Customer behavior from raw DB | SQL | 🔄 Active |
-| Ecommerce Sales Dashboard | Revenue trends, product performance | Excel, Power Query | ⏳ Soon |
-
----
-
-## About Me
-
-BBA graduate (2026) building toward Marketing Analyst and BI roles. Self-directed — I learn by building things.
-Currently focused on: SQL, publishing dashboards, and freelance analytics work for ecommerce businesses.
-
-- 📍 Delhi NCR, India
-- 💼 [LinkedIn](https://www.linkedin.com/in/ashutosh-tiwari-025ba2289/)
-- 📧 tiwarashutosh2077@gmail.com
